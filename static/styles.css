@@ -1,0 +1,25 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav {
+    background-color:darkslategray;
+    padding: 1.5rem;
+}
+
+.nav {
+    color: white;
+    padding: 2rem 1rem;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.weber {
+    border: 1px solid gray;
+    margin-top: 2rem;
+}
+
+.marx {
+    border: 1px solid gray;
+    margin-top: 1rem;
+}
+
