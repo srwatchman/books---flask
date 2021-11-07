@@ -10,8 +10,12 @@
 <body>
     <nav>
         <a href="{{url_for('home')}}" class="nav">Home</a>
-        <a href="{{url_for('book_page')}}" class="nav">See Our Books</a>
+        <a href="{{url_for('all_books')}}" class="nav">See Our Books</a>
+        <a href="{{url_for('addbook')}}" class="nav">Add a Book</a>
+        <a href="{{url_for('seedDB')}}" class="nav">Seed Data Base</a>
+        <a href="{{url_for('eraseDB')}}" class="nav">Erase Data Base</a>
         <a href="{{url_for('contact_page')}}" class="nav">Contact Us</a>
+        
     </nav>
     {% block body_content %}
     {% endblock %} 
